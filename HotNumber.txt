@@ -1,0 +1,13 @@
+INÍCIO
+
+    // Gera um número aleatório entre 0 e 100
+    numero_secreto ? gerar_numero_aleatorio(0, 100)
+
+    // Solicita o palpite do jogador
+    ESCREVER "Digite seu palpite: "
+    LER palpite
+
+    // Passa o número secreto e o palpite para verificação
+    CHAMAR verificar_numero(numero_secreto, palpite)
+
+FIM
